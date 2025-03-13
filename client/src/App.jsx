@@ -5,7 +5,7 @@ import TopBar from "./components/topBar/topBar";
 
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <LeftBar />
       <div className="content">
         <TopBar/>

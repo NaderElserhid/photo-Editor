@@ -3,7 +3,9 @@ import './topBar.css'
 
 const TopBar = () => {
   return (
-    <div className='topBar'>topBar and info fot serching</div>
+    <div className='topBar'>
+          <p>thello </p>
+      topBar and info fot serching</div>
   )
 }
 

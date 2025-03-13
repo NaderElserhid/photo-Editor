@@ -3,7 +3,9 @@ import './leftBar.css'
 
 const LeftBar = () => {
   return (
-    <div className='leftBar'>LeftBar and infrmation </div>
+    <div className='leftBar'>LeftBar and infrmation 
+        <p>thello </p>
+    </div>
   )
 }
 
