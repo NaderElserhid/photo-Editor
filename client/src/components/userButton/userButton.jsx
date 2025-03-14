@@ -1,15 +1,17 @@
 import { useState } from "react";
 import "./userButton.css";
+import Image from "../image/image";
+
 
 const UserButton = () => {
   const [open, setopen] = useState(false);
   const currentUser = true;
   return currentUser ? (
     <div className="userButton">
-      <img src="/general/noAvatar.png" alt="" />
-      <img
+      <Image path="/general/noAvatar.png" alt="" />
+      <Image
         onClick={() => setopen((prev) => !prev)}
-        src="/general/arrow.svg"
+        path="/general/arrow.svg"
         alt=""
         className="arrow"
       />

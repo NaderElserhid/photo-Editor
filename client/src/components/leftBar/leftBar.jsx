@@ -1,29 +1,28 @@
-import React from "react";
 import "./leftBar.css";
+import Image from "../image/image";
 
 const LeftBar = () => {
   return (
     <div className="leftBar">
-      LeftBar and infrmation
       <div className="menuIcones">
         <a href="/" className="menuIcon">
-          <img src="/general/logo.png" alt="" />
+          <Image  path="/general/logo.png" alt="" />
         </a>
         <a href="/" className="menuIcon">
-          <img src="/general/home.svg" alt="" />
+          <Image  path="/general/home.svg" alt="" />
         </a>
         <a href="/" className="menuIcon">
-          <img src="/general/create.svg" alt="" />
+          <Image  path="/general/create.svg" alt="" />
         </a>
         <a href="/" className="menuIcon">
-          <img src="/general/updates.svg" alt="" />
+          <Image  path="/general/updates.svg" alt="" />
         </a>
         <a href="/" className="menuIcon">
-          <img src="/general/messages.svg" alt="" />
+          <Image  path="/general/messages.svg" alt="" />
         </a>
       </div>
       <a href="/" className="menuIcon">
-          <img src="/general/messages.svg" alt="" />
+          <Image  path="/general/messages.svg" alt="" />
         </a>
     </div>
   );
