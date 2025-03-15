@@ -8,8 +8,8 @@ const MainLayout = () => {
     <div className="app">
       <LeftBar />
       <div className="content">
-        <TopBar/>
-        <Outlet/>
+        <TopBar />
+        <Outlet />
       </div>
     </div>
   );

@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./userButton.css";
 import Image from "../image/image";
 
-
 const UserButton = () => {
   const [open, setopen] = useState(false);
   const currentUser = true;
@@ -15,11 +14,13 @@ const UserButton = () => {
         alt=""
         className="arrow"
       />
-{  open && <div className="userOptions">
-        <div className="userOption">Profile</div>
-        <div className="userOption">Setting</div>
-        <div className="userOption">Logout</div>
-      </div>}
+      {open && (
+        <div className="userOptions">
+          <div className="userOption">Setting</div>
+          <div className="userOption">Profile</div>
+          <div className="userOption">Logout</div>
+        </div>
+      )}
     </div>
   ) : (
     <div>

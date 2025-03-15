@@ -6,24 +6,24 @@ const LeftBar = () => {
     <div className="leftBar">
       <div className="menuIcones">
         <a href="/" className="menuIcon">
-          <Image  path="/general/logo.png" alt="" />
+          <Image path="/general/logo.png" alt="" />
         </a>
         <a href="/" className="menuIcon">
-          <Image  path="/general/home.svg" alt="" />
+          <Image path="/general/home.svg" alt="" />
         </a>
         <a href="/" className="menuIcon">
-          <Image  path="/general/create.svg" alt="" />
+          <Image path="/general/create.svg" alt="" />
         </a>
         <a href="/" className="menuIcon">
-          <Image  path="/general/updates.svg" alt="" />
+          <Image path="/general/updates.svg" alt="" />
         </a>
         <a href="/" className="menuIcon">
-          <Image  path="/general/messages.svg" alt="" />
+          <Image path="/general/messages.svg" alt="" />
         </a>
       </div>
       <a href="/" className="menuIcon">
-          <Image  path="/general/messages.svg" alt="" />
-        </a>
+        <Image path="/general/messages.svg" alt="" />
+      </a>
     </div>
   );
 };
