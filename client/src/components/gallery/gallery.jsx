@@ -1,7 +1,7 @@
-import GalletyItem from '../galleryItem/galleryItem';
-import './gallery.css'
+import GalletyItem from "../galleryItem/galleryItem";
+import "./gallery.css";
 
-TEMPORARY
+TEMPORARY;
 const items = [
   {
     id: 1,
@@ -167,15 +167,14 @@ const items = [
   },
 ];
 
-
 const Gallery = () => {
   return (
-    <div className='gallery'>
-     {items.map(item=>(
-      <GalletyItem key={item.id} item={item} />
-     ))}
+    <div className="gallery">
+      {items.map((item) => (
+        <GalletyItem key={item.id} item={item} />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Gallery
+export default Gallery;
