@@ -2,6 +2,7 @@ import "./topBar.css";
 import UserButton from "../userButton/userButton";
 import Image from "../image/image";
 
+// this bar TO  displey the Search bar and profilr bar
 const TopBar = () => {
   return (
     <div className="topBar">
