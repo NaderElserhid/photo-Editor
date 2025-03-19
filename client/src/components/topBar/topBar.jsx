@@ -3,6 +3,7 @@ import UserButton from "../userButton/userButton";
 import Image from "../image/image";
 
 // this bar TO  displey the Search bar and profilr bar
+// just a commit for the github
 const TopBar = () => {
   return (
     <div className="topBar">

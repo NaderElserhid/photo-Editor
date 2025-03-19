@@ -1,6 +1,9 @@
 import "./leftBar.css";
 import Image from "../image/image";
 
+
+// just a commit for the github
+
 const LeftBar = () => {
   return (
     <div className="leftBar">
