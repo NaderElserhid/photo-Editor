@@ -176,5 +176,5 @@ const Gallery = () => {
     </div>
   );
 };
-
+// this command for github
 export default Gallery;
