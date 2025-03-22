@@ -1,6 +1,9 @@
 import GalletyItem from "../galleryItem/galleryItem";
 import "./gallery.css";
 
+
+// this commite for github
+
 TEMPORARY;
 const items = [
   {
