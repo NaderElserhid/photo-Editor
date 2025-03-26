@@ -4,6 +4,10 @@ import Image from "../image/image";
 
 // this bar TO  displey the Search bar and profilr bar
 // just a commit for the github
+
+// just a commit for the github
+// just noon
+
 const TopBar = () => {
   return (
     <div className="topBar">
