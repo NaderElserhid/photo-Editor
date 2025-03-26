@@ -4,6 +4,8 @@ import Image from "../image/image";
 
 // this commite for github
 // this commite for github
+// this commite for github
+
 const GalleryItem = ({ item }) => {
   const optimizedHeight = (372 * item.height) / item.width;
 
