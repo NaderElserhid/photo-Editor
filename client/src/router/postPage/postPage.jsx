@@ -1,9 +1,19 @@
-import React from 'react'
-
+import "./postPage.css";
+import Image from "../../components/image/image"
+import PostEnteractions from "../../components/postEnteractions/postEnteractions"
 const PostPage = () => {
   return (
-    <div>PostPage</div>
-  )
-}
+    <div className="postPage">
+      <div className="PostContener">
+        <div className="postImg">
+          <Image  path="/pins/pin1.jpeg" alt="" w={736} />
+        </div>
+        <div className="postDetails">
+          <PostEnteractions></PostEnteractions>
+      </div>
+    </div>
+    </div>
+  );
+};
 
-export default PostPage
+export default PostPage;
