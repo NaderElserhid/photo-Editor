@@ -3,7 +3,7 @@ const PostEnteractions = () => {
   return (
     <>
       <div className="postDetails">
-      PostEnteractions
+      PostEnteractions sdsd
       </div>
     </>
   );

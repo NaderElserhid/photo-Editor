@@ -9,7 +9,7 @@ const PostPage = () => {
           <Image  path="/pins/pin1.jpeg" alt="" w={736} />
         </div>
         <div className="postDetails">
-          <PostEnteractions className="">info</PostEnteractions>
+          <PostEnteractions className="">info addnd adata </PostEnteractions>
       </div>
     </div>
     </div>
