@@ -1,10 +1,7 @@
-
 const PostEnteractions = () => {
   return (
     <>
-      <div className="postDetails">
-      PostEnteractions
-      </div>
+      <div className="postDetails">PostEnteractions SADD</div>
     </>
   );
 };
