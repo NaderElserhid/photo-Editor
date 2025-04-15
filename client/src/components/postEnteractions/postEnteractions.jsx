@@ -1,7 +1,8 @@
+import "./postEnteractions.css"
 const PostEnteractions = () => {
   return (
     <>
-      <div className="postDetails">PostEnteractions SADD</div>
+      <div className="postInteractions">PostEnteractions sdsdAS </div>
     </>
   );
 };
