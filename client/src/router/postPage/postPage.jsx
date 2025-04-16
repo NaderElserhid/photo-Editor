@@ -11,7 +11,7 @@ const PostPage = () => {
           <Image path="/pins/pin1.jpeg" alt="" w={736} />
         </div>
         <div className="postDetails">
-          <PostEnteractions className="">info sad sadasd</PostEnteractions>
+          <PostEnteractions className="">info sad sasd dasd</PostEnteractions>
           <link to="/john"> </link>
         </div>
       </div>

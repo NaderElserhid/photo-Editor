@@ -2,7 +2,7 @@ import "./postEnteractions.css"
 const PostEnteractions = () => {
   return (
     <>
-      <div className="postInteractions">PostEnteractions sdsdAS </div>
+      <div className="postInteractions">PostEnteractions sdasdasdsadAS </div>
     </>
   );
 };
