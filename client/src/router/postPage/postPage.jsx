@@ -1,18 +1,29 @@
 import "./postPage.css";
 import Image from "../../components/image/image";
 import PostEnteractions from "../../components/postEnteractions/postEnteractions";
-import { Link } from "react-router";
-
+import Comments from "../../components/comments/comments";
+import { Link, useParams } from "react-router";
 const PostPage = () => {
   return (
     <div className="postPage">
-      <div className="PostContener">
+            <svg
+        height="20"
+        viewBox="0 0 24 24"
+        width="20"
+        style={{ cursor: "pointer" }}
+      >
+        <path d="M8.41 4.59a2 2 0 1 1 2.83 2.82L8.66 10H21a2 2 0 0 1 0 4H8.66l2.58 2.59a2 2 0 1 1-2.82 2.82L1 12z"></path>
+      </svg>
+      <div className="postContainer">
         <div className="postImg">
           <Image path="/pins/pin1.jpeg" alt="" w={736} />
         </div>
         <div className="postDetails">
-          <PostEnteractions className="">info sad sasd dasd</PostEnteractions>
-          <link to="/john"> </link>
+          <PostEnteractions >info</PostEnteractions>
+          <Link to="/john" className="postUser">
+          <Image path="/general/noAvatar.png"/>
+          </Link>
+          <Comments></Comments>
         </div>
       </div>
     </div>

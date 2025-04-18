@@ -2,9 +2,6 @@ import "./galleryItem.css";
 import { Link } from "react-router";
 import Image from "../image/image";
 
-// this commite for github
-// this commite for github
-// this commite for github
 
 const GalleryItem = ({ item }) => {
   const optimizedHeight = (372 * item.height) / item.width;
@@ -16,7 +13,7 @@ const GalleryItem = ({ item }) => {
     >
       {/* <img src={item.media} alt="" /> */}
       <Image path={item.media} alt="" w={372} h={optimizedHeight} />
-      <Link to={`/pin/${item._id}`} className="overlay" />
+      <Link to={`/pin/${item.id}`} className="overlay" />
       <button className="saveButton">Save</button>
       <div className="overlayIcons">
         <button>
