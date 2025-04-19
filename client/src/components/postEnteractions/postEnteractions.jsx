@@ -6,9 +6,11 @@ const PostEnteractions = () => {
       <div className="postInteractions">
         <div className="interactionIcons">
         <Image path="/general/react.svg" alt="" />
+        278
         <Image path="/general/share.svg" alt="" />
         <Image path="/general/more.svg" alt="" />
         </div>
+        <button>save</button>
       </div>
     </>
   );
