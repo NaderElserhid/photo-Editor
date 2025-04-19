@@ -2,9 +2,14 @@ import "./profilePage.css";
 import Image from "../../components/image/image";
 import { useState } from "react";
 import Gallery from "../../components/gallery/gallery";
+
 import Collections from "../../components/collections/collections";
+
+
 const ProfilePage = () => {
   const [type, setType] = useState("saved");
+
+
   return (
     <div className="profilePage">
       <Image
@@ -14,14 +19,16 @@ const ProfilePage = () => {
         path="/general/noAvatar.png"
         alt=""
       />
-      <h1 className="profileName">name</h1>
-      <span className="profileUsername">username data</span>
-      <div className="followCounts">followings</div>
+      <h1 className="profileName">.displayName</h1>
+      <span className="profileUsername">username</span>
+      <div className="followCounts">
+        followerCount 123 followers
+      </div>
       <div className="profileInteractions">
         <Image path="/general/share.svg" alt="" />
         <div className="profileButtons">
-          <button>follwers</button>
           <button>Message</button>
+          <button>fallow</button>
         </div>
         <Image path="/general/more.svg" alt="" />
       </div>
@@ -38,8 +45,12 @@ const ProfilePage = () => {
         >
           Saved
         </span>
-         <Collections></Collections>
       </div>
+      {type === "created" ? (
+        <Gallery  />
+      ) : (
+        <Collections></Collections>
+      )}
     </div>
   );
 };
