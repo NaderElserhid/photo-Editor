@@ -10,8 +10,6 @@ const CreatePage = () => {
       </div>
 
       <div className="createBottom">
-        <div className="preview"></div>
-
         <label htmlFor="file" className="upload">
           <div className="uploadTitle">
             <div className="editIcon">
