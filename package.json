@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "emoji-picker-react": "^4.12.2",
+    "react-image-picker-editor": "^1.3.5"
+  }
+}
