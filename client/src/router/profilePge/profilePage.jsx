@@ -19,7 +19,7 @@ const ProfilePage = () => {
         path="/general/noAvatar.png"
         alt=""
       />
-      <h1 className="profileName">.displayName</h1>
+      <h1 className="profileName">displayName</h1>
       <span className="profileUsername">username</span>
       <div className="followCounts">
         followerCount 123 followers

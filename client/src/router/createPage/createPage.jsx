@@ -8,7 +8,6 @@ const CreatePage = () => {
         <h1>Create Pin</h1>
         <button>Publish</button>
       </div>
-
       <div className="createBottom">
         <label htmlFor="file" className="upload">
           <div className="uploadTitle">
@@ -24,7 +23,6 @@ const CreatePage = () => {
           </div>
         </label>
         <input type="file" id="file" hidden />
-
         <form className="createForm">
           <div className="createFormItem">
             <label htmlFor="title">Title</label>
@@ -35,7 +33,6 @@ const CreatePage = () => {
               id="title"
             />
           </div>
-
           <div className="createFormItem">
             <label htmlFor="description">Description</label>
             <textarea
