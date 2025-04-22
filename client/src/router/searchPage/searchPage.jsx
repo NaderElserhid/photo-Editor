@@ -1,10 +1,7 @@
-import Gallery from "../../components/gallery/gallery.jsx"
-
+import Gallery from "../../components/gallery/gallery.jsx";
 
 const SearchPage = () => {
-  return (
-    <Gallery/>
-  )
-}
+  return <Gallery />;
+};
 
-export default SearchPage
+export default SearchPage;

@@ -43,12 +43,10 @@ const CreatePage = () => {
               id="description"
             />
           </div>
-
           <div className="createFormItem">
             <label htmlFor="link">Link</label>
             <input type="text" placeholder="Add a link" name="link" id="link" />
           </div>
-
           <div className="createFormItem">
             <label htmlFor="board">Board</label>
             <select name="board" id="board">
