@@ -1,6 +1,13 @@
 {
+  "name": "lamapin-api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "node --watch --env-file=.env index.js"
+  },
   "dependencies": {
     "emoji-picker-react": "^4.12.2",
+    "express": "^5.0.1",
     "react-image-picker-editor": "^1.3.5"
   }
 }
