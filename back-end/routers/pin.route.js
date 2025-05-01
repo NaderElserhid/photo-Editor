@@ -1,9 +1,8 @@
 import express from "express";
+import { getPins } from "../controllers/pin.controller.js";
 
 const router = express.Router();
 
-router.get("/pin", (req, res) => {
-  return res.json("hello rom pin router");
-});
+router.get("/", getPins);
 
 export default router;
