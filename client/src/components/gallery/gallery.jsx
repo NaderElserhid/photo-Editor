@@ -161,12 +161,6 @@ TEMPORARY;
 //     width: 1260,
 //     height: 1260,
 //   },
-//   {
-//     id: 27,
-//     media: "/pins/pin27.jpeg",
-//     width: 1260,
-//     height: 1260,
-//   },
 // ];
 
 const fetchPins = async () => {
