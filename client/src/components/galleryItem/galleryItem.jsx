@@ -2,7 +2,7 @@ import "./galleryItem.css";
 import { Link } from "react-router";
 import Image from "../image/image";
 
-
+// gallery items 
 const GalleryItem = ({ item }) => {
   const optimizedHeight = (372 * item.height) / item.width;
   // console.log(item.media)
