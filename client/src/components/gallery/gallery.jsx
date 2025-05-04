@@ -149,12 +149,7 @@ TEMPORARY;
 //     width: 1260,
 //     height: 1260,
 //   },
-//   {
-//     id: 25,
-//     media: "/pins/pin25.jpeg",
-//     width: 1260,
-//     height: 1260,
-//   },
+
 
 // ];
 

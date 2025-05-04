@@ -6,6 +6,7 @@ import Image from "../image/image";
 const GalleryItem = ({ item }) => {
   const optimizedHeight = (372 * item.height) / item.width;
   // console.log(item.media)
+  // console.log(item.media)
 
   return (
     <div
@@ -16,7 +17,7 @@ const GalleryItem = ({ item }) => {
       <Image src={item.media} alt="" w={372} h={optimizedHeight} />
       <Link to={`/pin/${item._id}`} className="overlay" />
       <button className="saveButton">Save</button>
-      <div className="overlayIcons">
+      <div className="overlayIcons">git add.
         <button>
           <Image path="/general/share.svg" alt="" />
         </button>
