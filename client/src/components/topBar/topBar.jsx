@@ -4,8 +4,12 @@ import Image from "../image/image";
 
 
 const TopBar = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    
+  };
   return (
-    <div className="topBar">
+    <div className="topBar" onSubmit={handleSubmit}>
       <div className="search">
         <a href="/" className="">
           <Image path="/general/search.svg" alt="" />
