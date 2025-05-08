@@ -1,9 +1,11 @@
 import express from "express";
 import User from "../models/user.model.js";
 import bycrypt from "bcryptjs";
+import {getUser} from "../controllers/user.controller.js"
 
 const router = express.Router();
 
+router.get("/:username",getUser)
 router.post("/create", async (req, res) => {
   const hashedPassword = await bycrypt.hash(req.body.password, 10);
   await User.create({
@@ -12,7 +14,6 @@ router.post("/create", async (req, res) => {
     email: req.body.email,
     hashedPassword: hashedPassword,
   });
-  console.log(req.body);
 
   res.send("User crated successfully!");
 });
