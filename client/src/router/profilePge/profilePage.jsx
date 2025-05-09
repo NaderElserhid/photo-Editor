@@ -7,7 +7,7 @@ import Collections from "../../components/collections/collections";
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router";
 
-
+// PROFILE
 const ProfilePage = () => {
   const [type, setType] = useState("saved");
 
