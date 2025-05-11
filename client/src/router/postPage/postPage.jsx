@@ -6,6 +6,8 @@ import Comments from "../../components/comments/comments";
 import { useQuery } from "@tanstack/react-query";
 import apiRequest from "../../utils/apiRequest";
 
+
+// POST PAGE 
 const PostPage = () => {
   const { id } = useParams();
 
