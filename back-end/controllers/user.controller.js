@@ -6,7 +6,7 @@ export const getUser = async (req, res ) =>{
   const {hashedPasswored , ...detailsWithoutPassowrd} = user.toObject() ;
   res.status(200).json(detailsWithoutPassowrd)
 }
-
+// user controler
 const userController = {
   createUser: async (req, res) => {
     try {
