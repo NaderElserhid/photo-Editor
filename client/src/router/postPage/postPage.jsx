@@ -7,8 +7,6 @@ import { useQuery } from "@tanstack/react-query";
 import apiRequest from "../../utils/apiRequest";
 
 
-// POST PAGE 
-// import apiRequest from "../../utils/apiRequest";
 const PostPage = () => {
   const { id } = useParams();
 
